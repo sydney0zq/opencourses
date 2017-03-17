@@ -24,9 +24,9 @@ Tie to success as well as wellbeing if we are more toward the positive side.
 
 教授举了一个例子: 一个人每周工作 80 个小时为了逃避家事, 私事等等, 但是他可能看起来和每周工作 80 小时的一样, 对工作充满热情。表面看起来一样, 但是他们的内心感觉很不同。(May look the same but the inside, they feel very different.) 一种是疾病模型, 另一种是健康模型。
 
-人们问一些问题, 比如 "我的人生什么是有意义的?/ 我为什么在这里?/ 我毕业以后干什么?", 这种问题 ** 追求更多的快乐, 使生活更有意义, 更成功, 不是避免痛苦。**
+人们问一些问题, 比如 "我的人生什么是有意义的?/ 我为什么在这里?/ 我毕业以后干什么?", 这种问题 **追求更多的快乐, 使生活更有意义, 更成功, 不是避免痛苦。**
 
-传统的模型认为治疗好疾病, 就变的健康, 积极心理学不同, 它认为: ** 你生病了, 是因为你还不够健康, 没有做让你健康的事情 (You are ill because you don't have enough health in your life, because you are not pursuing those things that make you healthy.)。** 那么什么事情是让我们变得健康呢? 那便是教授之前讲过的: 追求有意义的生活, 人生的目的。
+传统的模型认为治疗好疾病, 就变的健康, 积极心理学不同, 它认为: **你生病了, 是因为你还不够健康, 没有做让你健康的事情 (You are ill because you don't have enough health in your life, because you are not pursuing those things that make you healthy.)。** 那么什么事情是让我们变得健康呢? 那便是教授之前讲过的: 追求有意义的生活, 人生的目的。
 
 "If one had grown and developed in an unimpeded way, human and personal possibilities have been lost. The world has been narrowed and so has consciousness. Capacities have been inhibited." What this word means is that we are ill because we do not cultivate what we are about enough, we do not become self-actualized, we don't do what we are supposed to do. We diminsh ourselves and that is when we become ill. That is when we are unwell.
 
@@ -65,11 +65,11 @@ The fact that human nature needs to be obeyed with all its flaws, with all its s
 
 下面讲自尊 (self-esteem),  教授说大多数人会用赞美来提升自尊。赞美别人可以获得自尊, 但是这只是一部分, 如果认为这就是正确的那么就是有害的 (detrimental)。因为当我们不加区分的赞扬别人, 我们实际上是在默默伤害他们。(这在心理学上有讲) 不论是对他们的幸福感, 还是成功。** 重要的是要知道如何赞美。** 教授举例说在监狱中练习瑜伽的犯人, 降低了再次犯罪的概率, 虽然非常奇怪但是事实。冥想能改变我们大脑的思维, 这在 learn how to learn 里面有讲, 使我们更容易感染到积极情绪, 在面对痛苦时更坚强。每一周锻炼三次, 每次 30 分钟, 与最强劲的精神药物有同样的效果。
 
-在 1954 年的研究中, Muzafer 警官研究发现, ** 接触假说 **, 让冲突的人们谈谈很多时候反而让情况更糟, 很多时候会使冲突进一步恶化, 因为人们只是聚在一起进行商谈, 接触还不够。**What you need is a superordinate goal that you have carry out together.** 一个小组都有的目标, 不仅是让人们聚在一起而已。
+在 1954 年的研究中, Muzafer 警官研究发现, **接触假说 **, 让冲突的人们谈谈很多时候反而让情况更糟, 很多时候会使冲突进一步恶化, 因为人们只是聚在一起进行商谈, 接触还不够。**What you need is a superordinate goal that you have carry out together.** 一个小组都有的目标, 不仅是让人们聚在一起而已。
 
-人们心好想解决问题, 但是往往在不经意间让事情变得更糟, 理想主义和善意是不够的, 这是教授一直想强调的。We need to merge, to mate the research with the practice. 人们也很容易忽略研究表现的坏结果, 虽然跟随自己的感觉很重要, 但更重要的是同时注重感觉和思维。** 我们必须要注意到现实的存在, 纯粹的理想主义是注定失败的。** 教授讲的例子是: 工程师想造一架忽略万有引力的飞机, 这显然是不可能的。我们应该清楚哪些可行, 哪些不可行。
+人们心好想解决问题, 但是往往在不经意间让事情变得更糟, 理想主义和善意是不够的, 这是教授一直想强调的。We need to merge, to mate the research with the practice. 人们也很容易忽略研究表现的坏结果, 虽然跟随自己的感觉很重要, 但更重要的是同时注重感觉和思维。**我们必须要注意到现实的存在, 纯粹的理想主义是注定失败的。** 教授讲的例子是: 工程师想造一架忽略万有引力的飞机, 这显然是不可能的。我们应该清楚哪些可行, 哪些不可行。
 
-教授阐述了一个关于基因和后天教育的影响程度的研究: 实验用的是双胞胎, 他们拥有相同的基因谱 (the same genetic profile)。研究那些被分开抚养长大的同卵双胞胎, 发现这些双胞胎相似的地方非常多, 甚至还娶了相同名字的妻子, 喝同一种啤酒, 给他们的孩子娶相同的名字。** 他们的个性非常的相似。(Their personality was incredibly similar.)** 这些双胞胎的幸福和快乐水平非常的相似, 即使他们在完全不同的环境中长大。
+教授阐述了一个关于基因和后天教育的影响程度的研究: 实验用的是双胞胎, 他们拥有相同的基因谱 (the same genetic profile)。研究那些被分开抚养长大的同卵双胞胎, 发现这些双胞胎相似的地方非常多, 甚至还娶了相同名字的妻子, 喝同一种啤酒, 给他们的孩子娶相同的名字。**他们的个性非常的相似。(Their personality was incredibly similar.)** 这些双胞胎的幸福和快乐水平非常的相似, 即使他们在完全不同的环境中长大。
 
 "It maybe that trying to be happier is as futile as trying to be taller and is therefore counterproductive." 这话让教授很不爽。这是很有影响力的名言。教授说改变是可能的。教授也引用某 stanford 教授的论文中说, 某句话或者某种经历就可能影响我们的幸福。并非每一个人的幸福水平都取决于基因。研究表明, 基因很重要, 影响甚多, 还有其他的一些因素和基因一样重要。教授讲了很多要表明改变是可能的。
 
@@ -77,9 +77,9 @@ The fact that human nature needs to be obeyed with all its flaws, with all its s
 
 我们可以研究已经改变的人, 研究那些幸福的人, 这是教授一直以来很重要的观点。我们不能总是看到平均结果, 最紧迫的问题的答案出人意料, 这和之前的串联起来了。教授也讲到只演技最优秀的人就成了精英主义? 教授讲了说这不是忽略大众。最重要的是研究最优秀的个体, 能让每个人从中获益。
 
-教授又举了一例说研究婚姻关系, 如果我们取大众值或者说参考历史的话。那么女人是被压制的一方, 这是人类史上的普通恋爱关系。所以教授说研究高一些的很有帮助。** 当我们着眼于最优秀的个体的时候, 所有人都会受益。** 越来越觉得教授说的很有道理。
+教授又举了一例说研究婚姻关系, 如果我们取大众值或者说参考历史的话。那么女人是被压制的一方, 这是人类史上的普通恋爱关系。所以教授说研究高一些的很有帮助。**当我们着眼于最优秀的个体的时候, 所有人都会受益。** 越来越觉得教授说的很有道理。
 
-当然, ** 推而广之, 我们在恋爱最亲热的时候, 我们在最快乐的时候, 我们在最成功的时候, 我们也可以从中学习并应用到未来。** 当我们研究平均水平, 我们只是描述日常生活。我们在研究最优秀的个体时, 我们潜意识里在学习。虽然他们人数很少, 但是我们可以学到很多有用的东西。
+当然, **推而广之, 我们在恋爱最亲热的时候, 我们在最快乐的时候, 我们在最成功的时候, 我们也可以从中学习并应用到未来。** 当我们研究平均水平, 我们只是描述日常生活。我们在研究最优秀的个体时, 我们潜意识里在学习。虽然他们人数很少, 但是我们可以学到很多有用的东西。
 
 改变我们自己, how it is possible the "growing-tip" statistics?
 
