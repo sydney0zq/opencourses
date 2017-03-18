@@ -1,4 +1,4 @@
-##The first part of positive psychology
+##The first part of Positive Psychology 1504
 
 Psychology 1504.
 
@@ -8,7 +8,7 @@ But essentially research that falls under or within the field of positive psycho
 
 And hopefully, we will be exploring more than the field ourselves.
 
-We expected(以为) you to be more outgoing. 这是教授被记者问到说与预期的不一样的时候, 别人都以为他很外向, 但其实不是, 教授很内向。以及有的记者会以为他很高。这些 ** 新闻者不应该关注信息的传达者, 而更应该关注信息本身。**
+We expected(以为) you to be more outgoing. 这是教授被记者问到说与预期的不一样的时候, 别人都以为他很外向, 但其实不是, 教授很内向。以及有的记者会以为他很高。这些 **新闻者不应该关注信息的传达者, 而更应该关注信息本身。**
 
 My self-esteem is short.(我的自尊被打击)
 
@@ -52,7 +52,7 @@ In authentic education, silence is treated as a trustworthy matrix for the inner
 
 教授也提到不能只靠行为观察改善人生, 人并不是一个行为集合。精神分析学主要是通过潜意识分析, 且更多在意人的阴暗面, 它决定你理解决定如何改善生活。人本心理学重视人的本质, 给予人更多的自尊和自由, 但是人本心理学缺少严谨的方法论, 但是他引入了很多的关于幸福感的研究。
 
-**The first thing is this class is not just about information, it is also explicitly about transformation.** 如今大多数教育都是传授信息, 但是信息无法决定我们的幸福感, 我们的成功, 自尊, 动机水平, 两性关系和质量。变形是改变我们的容器的形状。** 接受信息, 关注信息本身是不够的。同样的信息有着截然不同的解读。** 教授强调了信息本身并不重要, 重要的是如何解读, 如何理解, 关注的重点, 这是由容器的形状所决定的。
+**The first thing is this class is not just about information, it is also explicitly about transformation.** 如今大多数教育都是传授信息, 但是信息无法决定我们的幸福感, 我们的成功, 自尊, 动机水平, 两性关系和质量。变形是改变我们的容器的形状。**接受信息, 关注信息本身是不够的。同样的信息有着截然不同的解读。** 教授强调了信息本身并不重要, 重要的是如何解读, 如何理解, 关注的重点, 这是由容器的形状所决定的。
 
 The interpretation matters very often a lot more as we will see than the information that goes in.
 
@@ -76,7 +76,7 @@ Common sense is not that common, especially applies to application.
 
 教育的意义是可以让一个人连续发问。
 
-** 只有两件事会决定谁会成为格外成功的人 (这里教授指的是 MBA 的学生中): 第一是那部分人真的相信自己, 他们认为自己能做好, 他们有目标, 他们有动力; 第二是这部份人一直在问问题, 一开始是问他们的上司, 身边的所有人, 他们一直处于比较好奇的状态。一直在寻找和探索, 想要更加了解世界。** 他们没有说, "我现在有了 MBA 学位就足够了", 他们是一生都在学习。他们总是在问问题。这是格外成功和成功的人之间的区别性特质。
+**只有两件事会决定谁会成为格外成功的人 (这里教授指的是 MBA 的学生中): 第一是那部分人真的相信自己, 他们认为自己能做好, 他们有目标, 他们有动力; 第二是这部份人一直在问问题, 一开始是问他们的上司, 身边的所有人, 他们一直处于比较好奇的状态。一直在寻找和探索, 想要更加了解世界。** 他们没有说, "我现在有了 MBA 学位就足够了", 他们是一生都在学习。他们总是在问问题。这是格外成功和成功的人之间的区别性特质。
 
 幸福不是二进制的 0 和 1, 幸福存在于一个连续统一体。涉及到自尊的时候, 教授提到了一个问题, 他启发说不是和别人比较或者设定阈值, 问题是 "我如何能够提高我的自尊, 而并非自恋"。
 

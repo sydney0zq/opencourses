@@ -1,4 +1,4 @@
-##Part 4 of Positive Psychology 1504
+##Part 04 of Positive Psychology 1504
 
 助教上来来了一段[All My Life]的音乐祝贺情人节, 听起来还不错。不过原唱不行, 感觉还没助教唱的好听。
 
@@ -23,8 +23,6 @@ Good will, idealism, good intentions are not good enough. We need to be grounded
 全球范围内, 幸福水平几乎是静止的, 焦虑水平和抑郁水平有明显的加深, 收入水平的影响很小。总的来说, 外部环境的影响很小。(External circumstances make very little difference.)同样的, place of residents makes very little difference. Initially when we go to a warm place, we feel the relief and there is this spiky level of wellbeing. But very quickly we go back to our base level, exactly where we were before. 
 
 Once thing that does matter to our base level of wellbeing which is external circumstance is democracy versus oppression. People living in democracies are generally significantly happier than people living in dictatorships.
-
-//希望小灯笼仔细读下面这段话, 很有意义。
 
 由上面的论述得到了好消息和坏消息。坏消息是消极的, 我们不论做什么事情都无关紧要, 那么我为什么还要努力争取好工作。答案是它不会改变我们的幸福水平, 但这不意味这我们不能提升自己的幸福水平。The problem is not lower these high expectations, that does not matter. **The problem is right versus wrong expectations. Not lower high expectations, that won't make a difference to our levels of wellbeing. What will make a difference to our levels of wellbeing is if we have right vs. wrong expectations.** It is wrong expectation to expect that getting into a certain place, getting a raise, finding our dream partner, is responsible for our happiness. That in and of itself will not make us happier. **The right expectation is to believe in change from within. In fact, our readiness and potential to experience happiness is mostly depended on our state of mind, not on our status, or the states of our bank account.** It is about changing our perception--state of mind. It is about changing our interpretation of the world, of what is happening to us, of our achievements, of our failures. It is about what we choose to perceive, what we choose to focus on. It is about transformation, as opposed to the external information or the external success.
 

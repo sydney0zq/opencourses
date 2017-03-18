@@ -1,6 +1,6 @@
-##Part 3 of Positive Psychology 1504
+##Part 03 of Positive Psychology 1504
 
-Part 2 的核心问题是 "为什么要学习积极心理学"。
+Part 02 的核心问题是 "为什么要学习积极心理学"。
 
 There are rising levels of depression around the world. The anxiety has become epidemic globally.
 

@@ -1,4 +1,4 @@
-## Part 2 of Psychology 1504
+## Part 02 of Positive Psychology 1504
 
 
 教授上来就问这门课是为谁设置的, 这是学生提出的一个问题: 这门课是对积极心理学有兴趣的人及想更开心的人设置的。It is effort in terms of applying these ideas to your lives.
@@ -44,7 +44,7 @@ The aim of positive psychology is to catalyze(促成) a change in psychology fro
 
 教授讲了不少成功的人的特质, 但是不想记录, 很奇怪。这不是讲幸福的吗, 为什么讲成功? 可以在学校培养上述的特质。很重要的就是需求社会支持并给予响应的人。
 
-教授对此进行反思, ** 认为浪费了大量的时间是因为没有提出正确的问题。**(The right question was not asked as well)
+教授对此进行反思, **认为浪费了大量的时间是因为没有提出正确的问题。**(The right question was not asked as well)
 
 问题是切入点, 答案来之不易。教授讲道积极心理学和积极社会学都是因为一个问题而引发的。
 
@@ -56,11 +56,11 @@ Think about the following question: what question is mostly asked by couples bey
 
 问题缔造现实(Questions create reality.)
 
-** 我们所问的问题决定了我们所追求的东西, 我们的经历, 我们会走的路。** 这对于个人和集体组织都是一样的。当然教授强调这些 "哪里有问题?" 是很重要的问题, 但是如果只问这些问题, 就忽略了优势和美德。这样做只会失去活力。
+**我们所问的问题决定了我们所追求的东西, 我们的经历, 我们会走的路。** 这对于个人和集体组织都是一样的。当然教授强调这些 "哪里有问题?" 是很重要的问题, 但是如果只问这些问题, 就忽略了优势和美德。这样做只会失去活力。
 
 欣赏起作用的东西, 也同样重要。不管在机构, 人际关系或者个人方面。欣赏好的事物非常重要。我们也不应该把自己的长处和别人看作理所当然; appreciate 除了刚才这个意思还有一个就是增值。当我们鼓励好的东西, 好的东西就会增值, 它会增长。当然当我们不感激好的东西的时候, 把它看作理所当然, 好东西就会贬值。(The good depreciates.)
 
-** 这就是大部分婚姻在蜜月期之后发生的情况。** 也是大多数人发生的情况, 特别是对于那些有动力去提高, 想变好的人。
+**这就是大部分婚姻在蜜月期之后发生的情况。** 也是大多数人发生的情况, 特别是对于那些有动力去提高, 想变好的人。
 
 教授在一本书中引用了一段关于婚姻的话: We see what we look for and we miss much of what we are not looking for even though it is there. Our experience of the world is heavily influenced. Our experience of the world is heavily influenced by where we place our attention.
 
@@ -74,7 +74,7 @@ Questions very often create reality. 教授这话说了四遍不止, 看来很�
 
 要有乐观精神, 从专注缺点到专注优点。我们应该停止问一个学生是否聪明, 我们要问这个学生有什么优点。了解这个学生的长处之后, 欣赏它, 优点和整个人都会增值。
 
-** 一个人就像种子, 没有水分和阳光的照耀是不会长的很好的。种子会枯萎并死去, 人类的潜力也是如此。人际关系也是如此。** 如何培养健康长期的关系, 不灌溉和不照耀的话, 不欣赏它的好处, 好处就会贬值。(The good will depreciate)
+**一个人就像种子, 没有水分和阳光的照耀是不会长的很好的。种子会枯萎并死去, 人类的潜力也是如此。人际关系也是如此。** 如何培养健康长期的关系, 不灌溉和不照耀的话, 不欣赏它的好处, 好处就会贬值。(The good will depreciate)
 
 本质上, MC 做的是缔造出一个与传统智慧不同的榜样。范式转移实质上是从被动接受者。影响内在性格很重要, 但是这不够。MC 做的是把他们带到连续体的极点, 因为每件事每个人都处于连续体的某处。
 
