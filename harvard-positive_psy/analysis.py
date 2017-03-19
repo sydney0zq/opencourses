@@ -16,6 +16,7 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 if __name__ == "__main__":
     mpl.rcParams['font.sans-serif'] = ['FangSong']
     content = open("/tmp/ana", "rb").read()
+    content = "God started my life off well by bestowing upon me grace of inestimable value... The past year which I spent as a candidate studying at Notre Dame has been a very happy one.  Now I look forward with eager joy to receiving the Holy Habit of Our Lady and to a life of union with Love Divine."
 
     #tags extraction based on TF-IDF algorithm
     tags = jieba.analyse.extract_tags(content, topK=100, withWeight=False)
