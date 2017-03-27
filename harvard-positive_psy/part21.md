@@ -36,7 +36,7 @@ Communicating about Positive Events (Gable et al., 2006)
 
 
 ```
-Communicating about Positive Events (Gable et al., 2006)
+Communicating about Positive Events(Gable et al., 2006)
 
 - Responding to positive-event-disclosures
 - Active constructive responding
@@ -48,8 +48,7 @@ Communicating about Positive Events (Gable et al., 2006)
 
 幸福的爱情, 健康的爱情, 没有捷径, 它需要我们的努力, 但是这不是说, 努力就是痛苦的。它可以意义非凡且充满乐趣。当我们讲追求幸福的时候, 我们应该讲恋情吗? 追求幸福的本质是自私的, 那么恋情和自私是否对立呢? 换句话说, 恋情是利他主义的。教授这个时候讲到一种有责任感和利他主义动机的老师才来上课的老师, 或者是一个为了自己的幸福 (很喜欢教书) 满足自己的老师, 然后教授引申到伴侣中, 问我们想要哪种伴侣? 一个跟你在一起是因为他们觉得, "这人很需要我, 我只是出于责任感, 支持他" 的人; 还是跟你在一起是因为你是他们生命中最重要的人, 他们 像关心自己一样, 关心你, 把你纳入自己的一部分。这不是说爱情中不会有牺牲, 当 "我" 变成了 "我们", 就会有牺牲, 但这是健康的牺牲。这样的爱情, 它的基础不是责任感, 不是否定自我的利他主义。Nathaniel Branden 说: 我们越独立, 就越相互依赖。
 
-
-###Self-esteem
+### Self-Esteem
 
 ```
 Outline
