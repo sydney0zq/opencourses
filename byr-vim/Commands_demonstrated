@@ -58,6 +58,43 @@
 
 
 "============================================================================
+" My self records
+"============================================================================
+
+To find out where I am in a file: <CTRL-G>
+To move forward to the start of the next word: w
+To move backwards to the start of the previous word: b
+To move forward to the *end* of the next word: e
+To move backwards to the *end* of the previous word: ge
+
+"Words" are considered anything that is delimited by non-identifier characters
+
+All the motions have uppercase versions that use *whitespace* as the word delimiter instead
+
+- To move to the start of the first word of the current line: ^
+- To move to the start of the next line: <CR>
+- To move the start of the previous line: -
+
+- To move to the start of the current paragraph: {
+- To move to the end of the current pragraph: }
+- A paragraph is delimited by empty lines(i.e. not blank lines)
+
+- To move to line N: <N>G or <N>gg
+- To move to the point P percent throgh the buffer: <P>%
+
+- By default, vim only matches {...}, (...), and [...]. We can extend that to whatever pairs we like: `set matchpairs+=<:>`
+
+- :set backspace=start  " Can delete back past start of edit
+- :set backspace=indent " Can delete back past autoindenting
+- :set backspace=eol    " Can delete back back to the previous line
+- :set backspace=indent, eol, start
+
+
+
+
+
+
+"============================================================================
 " Turn off the highlights set up by the most recent search
 "============================================================================
 

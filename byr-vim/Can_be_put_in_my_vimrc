@@ -38,7 +38,9 @@
 " Make % match angle brackets as well (including Euro-brackets)
 "============================================================================
 
-    set matchpairs+=<:>,«:»
+    set matchpairs+=<:>,Â«:Â»,=:;
+    "For (vastly) more sophistication, you can configure the standard
+    "`matchit.vim` plugin
 
 
 "============================================================================
