@@ -1,0 +1,48 @@
+###Useful metasyntax
+
+Commonest mistakes:
+`\d+` ---> `\d\+`
+
+`foo|bar` ---> `foo\|bar`
+
+OR
+
+`\v\d+`
+
+`\vfoo|bar`
+
+
+You can even automate that: `nnoremap / /v`
+
+Another very useful metasyntactic is `\&`. For example, find line containing "Java" and "line": `/.*Java\&.*line`
+
+`\<` and `\>` match only at start/end of the word. For example: `/\<for\>` matches "for", but not 'fortune' etc.
+
+If the word you want to search for is already under cursor:
+
+... just type `*` to find the next instance
+... or `#` to find the previous
+
+
+###Case (in)sensitivity
+
+Normally vim searches are case-sensitive. If you would prefer case-insensitive set the following option: `:set ignorecase`
+
+Better still, if you'd like 'partial sensitivity', `:set smartcase`. "Smaartcase" overrides the "ignorecase" behavior whenever your pattern includes any uppercase letters. That means we search 'smart', we can get 'Smart' and 'smart' while 'Smart' we can only get 'Smart'.
+
+Even with these options set you can still be specific when you need to be
+
+- Use the `\c` specifier within the pattern, everything after it within the pattern will match case-insensitively
+
+- Likewise, there's `\C` to unconditionally turn case sensitivity on
+
+
+
+
+
+
+
+
+
+
+

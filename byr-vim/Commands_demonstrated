@@ -89,9 +89,16 @@ All the motions have uppercase versions that use *whitespace* as the word delimi
 - :set backspace=eol    " Can delete back back to the previous line
 - :set backspace=indent, eol, start
 
+- CTRL-Y duplicates what's in the same column on the preceding line
+- CTRL-E duplicates what's in the same column on the following line
+- CTRL-A inserts again whatever the most recent inserted text was
+- CTRL-R= evalutes and expression and inserts the result
 
-
-
+- CTRL-T inserts a tab at the start of the line(without moving the insertion point)
+- CTRL-D deletes a tab at the start of the line(without moving the insertion point)
+- CTRL-V inserts the next character verbatim(even if it's normally a control character)
+- CTRL-W deletes the word preceding the cursor
+- CTRL-O takes you back to Normal mode for one command, which is handy, for example, to clean the rest of the line ^OD
 
 
 "============================================================================
@@ -106,21 +113,25 @@ All the motions have uppercase versions that use *whitespace* as the word delimi
 "============================================================================
 
     :s/<pattern>/<replacement>
-
+" If the range consists of a single number, only that line is modified
+    :1s/<pattern>/<replacement>
 
 "============================================================================
 " Substitute once-per-line between lines 10 and 33
 "============================================================================
 
-    :10,33s/<pattern>/<replacement>
+    :10, 33s/<pattern>/<replacement>
 
 
 "============================================================================
 " Substitute once-per-line on every line from the current line
 "============================================================================
-
+" In a range, `.` means the current line, `$`
     :.,$s/<pattern>/<replacement>
 
+" There is also a short-cut for making the range
+" "the next N lines". If you enter a number before the colon: `99:`
+" You get `:.,+98`
 
 "============================================================================
 " Substitute once-per-line on every line in the file
@@ -150,6 +161,12 @@ All the motions have uppercase versions that use *whitespace* as the word delimi
 
     :/<body>/,/<\/body>/s/<I>/<EM>/
 
+" Use `/<pat>/` to specify "the next line that matches <pat>"
+" Use `?<pat>?` to specify "the previous line that matches <pat>"
+" e.g. to substitute only within the body of an HTML file
+" gg
+" :/<body>/,/<\/body>/s/<I>/<EM>/
+
 
 "============================================================================
 " Substitute once-per-line from the nearest preceding line with a "foo"
@@ -172,7 +189,7 @@ All the motions have uppercase versions that use *whitespace* as the word delimi
 " Substitute interactively (ask for confirmation each time)
 "============================================================================
 
-    :%s/cat/feline/c
+    :%s/cat/feline/gc
 
 
 "============================================================================
@@ -202,6 +219,7 @@ All the motions have uppercase versions that use *whitespace* as the word delimi
 " Apply the colon command to every line matching the pattern
 "============================================================================
 
+" To centre only those lines that are already indented
     :g /^\s/    :center
     :g /<ISBN>/ :normal gUU
 

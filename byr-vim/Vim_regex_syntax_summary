@@ -1,0 +1,195 @@
+Overview
+
+    * Vim uses an extended version of regular expressions
+    that is not the same as vi's
+
+    * It's also not the same as Perl's (but of comparable power)
+
+    * The basic rule is that almost every character matches itself
+
+    * With a very few exceptions, only backslash-escaped characters
+    are special
+
+    * The main features are:
+
+        Subpattern...           Matches...
+
+        .                       ...any character except newline
+        *                       ...zero or more of the preceding
+        ^                       ...start of line (only at start of pat)
+        $                       ...end of line (only at end of pat)
+        [...]                   ...an explicit character class
+        \<numerous characters>  ...special behaviour
+        \\                      ...a literal backslash
+        <any other character>   ...itself
+
+
+Characters and character classes
+
+    * The following backslashed characters are short-hands for one or
+      more "difficult" characters:
+
+        Escape    Matches...
+
+        \^        literal '^'
+        \$        literal '$'
+        \_.       any character, including newline
+        \a        alphabetic character:       [A-Za-z]
+        \A        non-alphabetic character:   [^A-Za-z]
+        \b        <BS>
+        \d        digit:                      [0-9]
+        \D        non-digit:                  [^0-9]
+        \e        <ESC>
+        \f        any character that might appear in a filename
+        \F        like "\f", but excluding digits
+        \h        head of word character:     [A-Za-z_]
+        \H        non-head of word character: [^A-Za-z_]
+        \i        identifier character
+        \I        like "\i", but excluding digits
+        \k        keyword character
+        \K        like "\k", but excluding digits
+        \l        lowercase character:        [a-z]
+        \L        non-lowercase character:    [^a-z]
+        \n        end-of-line
+        \o        octal digit:                [0-7]
+        \O        non-octal digit:            [^0-7]
+        \p        printable character
+        \P        like "\p", but excluding digits
+        \r        <CR>
+        \s        whitespace character: <SPACE> and <TAB>
+        \_s       whitespace character: <SPACE>, <TAB>, and newline
+        \S        non-whitespace character; opposite of \s
+        \t        <TAB>
+        \u        uppercase character:        [A-Z]
+        \U        non-uppercase character     [^A-Z]
+        \w        word character:             [0-9A-Za-z_]
+        \W        non-word character:         [^0-9A-Za-z_]
+        \x        hex digit:                  [0-9A-Fa-f]
+        \X        non-hex digit:              [^0-9A-Fa-f]
+        \%o<n>    specified octal character
+        \%d<n>    specified decimal character
+        \%x<n>    specified hex character
+        \%u<n>    specified multibyte character
+        \%U<n>    specified large multibyte character
+
+Repetitions
+
+    * Specified by a suffix on the preceding (atomic) item
+
+    * Zero-or-more:  *
+
+    * One-or-more:   \+
+
+    * Zero-or-one:   \?
+
+    * Exactly-M:     \{M}
+
+    * M-to-N:        \{M,N}
+
+    * M-or-more:     \{M,}
+
+    * zero-to-N:     \{,N}
+
+    * For "as few as possible", make first number negative
+
+    * For example, to match a double-quoted string at least one character long:
+
+            /".\{-1,}"
+
+    * As a special case of that, \{-} minimally matches zero-or-more
+
+    * For example, to match everything up to the first occurrence of "__END__":
+
+            /\_.\{-}__END__
+
+
+Alternatives, synternatives, and sequences
+
+    *  Alternatives are specified with: \|
+       For example:
+
+            /perl\|python\|php/
+
+    *  "Synternatives" are alternatives where *both* sides have to match
+
+    *  Specified with: \&
+
+    *  The "and" equivalent of \|'s "or"
+
+    *  For example, to find a line containing the word "Java" and the word "line":
+
+            /.*Java\&.*line
+
+    *  Sequences are successive characters that may be truncated at any point
+
+    *  They are specified with: \%[...]
+
+    *  Sequences are very handy when searching for terms that might be abbreviated
+
+    *  For example:
+
+            /fun\%[ction]
+
+    *  ...is the same as:
+
+            /fun\|func\|funct\|functi\|functio\|function
+
+
+Context specifiers
+
+    *  The ^ and $ markers allow you to constrain where a match can occur
+
+    *  There are many other such constraint specifiers
+
+    *  For example, \_^ and \_$, which are the same as ^ and $, except
+       they can appear anywhere in a pattern (which is particularly
+       handy in alternations and synternations)
+
+    *  Also \%^ and \%$: match start and end of file
+
+    *  Other positional constraints include:
+
+    *  ...match only at current cursor position: \%#
+
+    *  ...match only at line N:                  \%Nl
+
+    *  ...match only at column N:                \%Nc
+
+    *  ...match only at virtual column N:        \%Nv (allowing for tabs)
+
+    *  You can also put a < or > after the % to indicate "before" or "after" the specified row/column
+
+    *  The \< and \> subpatterns only match at the start/end of a word, for example:
+
+            /\<for\>
+
+    *  ...matches "for", but not "fortune" nor "wherefor" nor "enforce"
+
+
+Match boundaries
+
+    *  Sometimes you want to use a pattern in a substitution, where you
+       need to match a certain line, but only change part of it
+
+    *  To make that easy, Vim provides the \zs and \ze specifiers
+
+    *  They allow you to mark where the pattern should be
+       considered to have matched from and to (as opposed to where
+       it actually matched)
+
+    *  Suppose you want to find every call to the function 'update'
+       (provided its first argument starts with a digit) and change that
+       call to a call to 'update_num'
+
+    *  You could do that with:
+
+            :%s/\s*\zsupdate\ze(\d/update_num/g
+
+    *  The \zs and \ze tell the substitution that, if it successfully matches the entire pattern...
+
+    *  ...it should pretend that it only matched from just after the \zs to just before the \ze
+
+    *  ...so that the substitution only replaces the "update" part of
+       the match (i.e. not the leading whitespace or the trailing
+       paren+digit)
+
