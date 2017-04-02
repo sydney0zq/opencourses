@@ -13,6 +13,21 @@ Test website: <http://httpbin.org>
 `requests.ConnectTimeout` 是和远程服务器连接的超时异常。
 
 
+###About robots.txt
+
+[Lecture Notes](https://drive.google.com/open?id=0Bxvv1hqGj91VOGhpMDVtaUpUMnM)
+
+
+###Practice
+
+[Lecture Notes](https://drive.google.com/open?id=0Bxvv1hqGj91VVk1IV2wzWTY3Mkk)
+
+
+
+
+
+
+
 
 
 
