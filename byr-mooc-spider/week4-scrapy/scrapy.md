@@ -26,5 +26,8 @@ for i in gen(5):
 To master yield, you must understand that when you call the function, the code you have written in the function body does not run. The function only returns the generator object, this is a bit tricky :-)
 ```
 
+[A demo for stocks](https://drive.google.com/open?id=0Bxvv1hqGj91VaXBaa2h3ZE9TRzQ)
+
+
 
 
