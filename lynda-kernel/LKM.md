@@ -169,40 +169,35 @@ binfmt_misc            16949  1
 
 ###Example Module
 
+```
+$ vi simplemodule.c
+$ echo "obj-m := simplemodule.c" > Makefile
+$ make -C /lib/modules/$(uname -r)/build M=$PWD modules
+make: Entering directory '/usr/src/linux-headers-3.16.0-4-amd64'
+make[1]: Entering directory `/usr/src/linux-headers-3.16.0-4-amd64'
+  CC [M]  /media/sf_Public/opencourses/lynda-kernel/code/simplemodule.o
+  Building modules, stage 2.
+make[3]: Warning: File '/media/sf_Public/opencourses/lynda-kernel/code/simplemodule.o' has modification time 11 s in the future
+  MODPOST 1 modules
+  CC      /media/sf_Public/opencourses/lynda-kernel/code/simplemodule.mod.o
+  LD [M]  /media/sf_Public/opencourses/lynda-kernel/code/simplemodule.ko
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make: Leaving directory '/usr/src/linux-headers-3.16.0-4-amd64'
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[root code]#insmod simplemodule.ko
+[root code]#lsmod | head -3
+Module                  Size  Used by
+simplemodule           12463  0 
+[root code]#insmod simplemodule.ko
+[root code]#lsmod | head -2
+Module                  Size  Used by
+simplemodule           12463  0 
+[root code]#dmesg | tail -1
+[203125.217518] In init module demo
+[root code]#rmmod simplemodule 
+[root code]#lsmod | head -3
+Module                  Size  Used by
+binfmt_misc            16949  1 
+vboxsf                 41462  1
+```
 

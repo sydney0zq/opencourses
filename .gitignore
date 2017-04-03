@@ -1,1 +1,8 @@
 .DS_Store
+*.ko
+*.o
+*.order
+*.symvers
+*.mod.c
+*.swp
+*.cmd
