@@ -1,3 +1,19 @@
+###Commands for HW info
+
+lshw and lspci, lsusb and lsbk, lscpu and lsdev.
+
+
+###Cmds for HW Control and Config
+
+hdparm
+
+Write to `proc`, `dev`, or `sys` files
+
+inb and outb
+
+setpci
+
+
 ###System Calls
 
 System calls are function implemented by the kernel and meant to be called from user space.
@@ -123,34 +139,4 @@ crw-rw-rw- 1 root root 1, 5 Mar 30 20:58 /dev/zero
 
 `1, 3`: 1 is the major number while 3 is the minor.
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
