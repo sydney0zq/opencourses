@@ -1,0 +1,40 @@
+##Tensorflow 4 tf coding structure
+
+[Origin Video](https://www.youtube.com/watch?v=lqbJg2_cwv8&list=PLXO45tsB95cJHXaDKpbwr5fC_CCYylw1f&index=4)
+
+tensorflow 有点像神经网络, 有输入有输出还有隐藏层。并且是tensor在flow, 从输入到输出。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
