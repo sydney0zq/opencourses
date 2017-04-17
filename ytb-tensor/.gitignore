@@ -2,3 +2,4 @@ logs/
 *.gif
 *.jpg
 MNIST_data/
+params/
