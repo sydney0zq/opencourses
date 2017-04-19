@@ -52,17 +52,17 @@ They're also very cheap, because if you go through the math, they're not really 
 I mention all of this, average pooling and one by one convolutions because I want to talk about a general strategy that has been very successful at creating covnets that are both smaller and better than covnets that simply use a pyramid of convolutions.
 
 
+###Inception Modules
 
+It's called an inception module. It's going to look a little more complicated. The idea is that at each layer of your cognate you can make a choice.
 
+![](http://okye062gb.bkt.clouddn.com/2017-04-19-091452.jpg)
 
+Have a pooling operation, have a convolution. Then you need to decide is it a 1 by 1 convolution, or a 3 by 3, or a 5 by 5? **All of these are actually beneficial to the modeling power of your network.** So why choose? Let's use them all. Here's what an inception module looks like.
 
+![](http://okye062gb.bkt.clouddn.com/2017-04-19-091611.jpg)
 
+Instead of having a single convolution, you have a composition of average pooling followed by a 1 by 1, then a 1 by 1 convolution, then a 1 by 1 followed by a 3 by 3. Then a 1 by 1 followed by a 5 by 5. And at the top, you simply concatenate
+the output of each of them.
 
-
-
-
-
-
-
-
-
+It looks complicated, but what's interesting is that you can choose these parameters in such a way that the total number of parameters in your model is very small. Yet the model performs better than if you had a simple convolution.
