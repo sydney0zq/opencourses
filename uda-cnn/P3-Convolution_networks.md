@@ -42,3 +42,32 @@ Either, you don't go past the edge, and it's often called valid padding as a sho
 ![](http://okye062gb.bkt.clouddn.com/2017-04-19-084145.jpg)
 
 
+<hr>
+
+A Quiz:
+
+![](http://okye062gb.bkt.clouddn.com/2017-04-19-084700.jpg)
+
+`SAME` padding equation:
+
+```
+out_height = ceil(float(in_height) / float(strides[1]))
+out_width  = ceil(float(in_width) / float(strides[2]))
+```
+
+
+`VALID` padding equation:
+
+```
+out_height = ceil(float(in_height - filter_height + 1) / float(strides[1]))
+out_width  = ceil(float(in_width - filter_width + 1) / float(strides[2]))
+```
+
+![](http://okye062gb.bkt.clouddn.com/2017-04-19-085355.jpg)
+
+And once you have a deep and narrow representation, connect the whole thing to a few regular fully connected layers and you're ready to train your classifier. You might wonder what happens to training, into the chain rule in particular, when you use shared weights like this.
+
+Nothing really happens. The math just works. You just add up the derivates from all of the possible locations on the image.
+
+![](http://okye062gb.bkt.clouddn.com/2017-04-19-085431.jpg)
+
