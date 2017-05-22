@@ -138,4 +138,100 @@ And it has my important file in it, committing images and then tagging them is s
 The name of the container, it's nice human readable name and then you can as the next argument, say the name you'd like it to be tagged as. This is the format you should probably use in all of your day to day life, there's no reason to go through the extra step of doing a commit then running docker tag, but it is very important to understand that that's what's happening under the hood.
 
 
+## Run processes in containers
+
+Now that we've got the docker flow in mind, let's talk about running things in docker because that's what it's all about.
+
+**So, to start off, we have the most important command, `docker run`. It starts a container by giving an image name and a process to run in that container.**
+
+There is a main process to a container. When that process exits, the container is done. The container is not done until that process exits. **If you start other processes in the container later, the container still exits when that main process finishes.** So docker containers have one main process, and they can have names. You don't give it a name, it'll make one up.
+
+```
+Running Things in Docker
+`docker run`
+
+- Containers have a main process
+- The container stops when that process stops
+- Containers have names
+```
+
+**`docker run --rm` is a very common command, lots of people us it all the time when you just wanna run something in your container, but you don't wanna keep the container afterwards.** That says delete this container when it exits. Otherwise we have to do extra stuff. This saves a step.
+
+```
+➜  ~ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+test_image          latest              6616faa93427        7 minutes ago       124MB
+➜  ~ docker run --rm -ti test_image sleep 5
+➜  ~ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+test_image          latest              6616faa93427        8 minutes ago       124MB
+
+➜  ~ docker run -ti test_image bash -c "sleep 2; echo all done" 
+all done
+```
+
+Now let's talk about leaving things running in a container. Docker has the idea of detached containers. You can start a container running and just let it go. But this time I'm going to put in a `-d` for detach.
+
+So that's gonna start this thing running, and leave it running in the background. It prints out an identifier, by which you can go and find it. You don't have to use that identifier. You can also see it by running the `docker ps` command.
+
+```
+➜  ~ docker run -d -ti test_image bash
+a79cdefb42c1be0b04a5ed62e1f2a019374abf7db23c6705584ca161897b0c2f
+➜  ~ docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+a79cdefb42c1        test_image          "bash"              8 minutes ago       Up 14 seconds                           wonderful_galileo
+➜  ~ docker attach wonderful_galileo
+root@a79cdefb42c1:/# 
+```
+
+If you hit control P, control Q, it exits you out of the container by detaching you from it, but leaves it running, so that you can attach back again and pick up where you left off. 
+
+```
+Leaving Things Running in a Container
+`docker attach`
+➜  ~ docker ps
+➜  ~ docker attach *container_name*
+
+Running More Things in a container
+`docker exec`
+- Start another process in an existing container
+- Great for debugging and DB administration
+- Cannot add ports, volumes, and so on
+```
+
+Now let's say you wanna run more things in a container. You started a container, it's got something running, and you want to add another process to a running container. This is really good for debugging. Your container is acting up, you just want to jump in there, figure out why.
+
+You just start a process in it. you can't use it add more ports, or volumes, or any of the other stuff that you can do with docker run.
+
+```
+#Terminal 1
+root@a79cdefb42c1:/#
+
+#Terminal 2
+➜  ~ docker exec -ti wonderful_galileo bash
+```
+
+Now, when the original container exits, which I'll do by pressing control D over here, **my attached process that I had exec in there with, that died with the original container.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
