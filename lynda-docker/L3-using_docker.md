@@ -214,24 +214,3 @@ root@a79cdefb42c1:/#
 Now, when the original container exits, which I'll do by pressing control D over here, **my attached process that I had exec in there with, that died with the original container.**
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
