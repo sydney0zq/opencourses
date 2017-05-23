@@ -83,8 +83,6 @@ Lesson One, **don't let your containers fetch their dependencies when they start
 
 Also, from a sort of different perspective, little security hat here. **Don't leave important things in unnamed stopped containers.** Don't do a week's worth of work and just leave it sitting in a stopped container on your laptop. Because, you'll inevitably come along and say, "My disk is full, ah, I gotta clean up some stopped containers." and then delete the seemingly unimportant container, and then your important stuff is gone. So, be careful what you leave sitting around in unnamed containers.
 
-
-
 ```
 Resource Constraints
 
@@ -100,5 +98,82 @@ Lessons from the Field
 
 - Don't let your containers fetch dependencies when they start
 - Don't leave important things in unamed stopped containers
+```
+
+
+## Network between containers
+
+Now that we've learned how to stop and start containers and clean up after ourselves, let's go on to making containers talk to each other. This is kind of where Docker gets exciting.
+
+So let's talk networking. Docker provides a private network for use by the containers on your system. In fact, you can have several private networks so you can split things up nicely. **You can group your containers into these private networks where all of your stuff related to one thing is in one private network and an unrelated service doesn't have to worry about interfering with that or being snooped upon.**
+
+You explicitly set, when you run Docker, who can talk to whom and on what ports, and this is done by explicitly exposing ports and linking containers.
+
+Also, when you've exposed ports and containers and all of that, Docker has a good mechanism for helping these containers find each other and make the connection. So how to expose a particular port so that connections can come into your container. **So you can explicitly specify the port on the inside of the container that can be explicitly exposed to a particular port on the outside of the container.**
+
+```
+Private Container Networking
+
+- Programs in containers are isolated from the Internet by default
+- You can group your containers into "private" networks
+- You explicitly choose who can connect to whom
+- This is done by "exposing" ports and "linking" containers
+- Docker helps you find other exposed ports with Compose services
+```
+
+And this is the new part. I have a -p, which stands for port, that says I would like to expose port `45678` on the inside of the container to the outside of the container as port `45678`.
+
+So this says I want the program listening on port `45678` inside the container to be reachable from outside the container by just going to that host on port `45678`, and then it'll get forwarded into the container and the connection will be made.
+
+I'm also going to forward another port, port `45679`. And I'm going to keep the port the same for this one, too, so that these two ports just forward right into the container.
+
+
+`netcat -lp` stands for listen port, and I'm going to have it listen on port 45678, that first port we forwarded into this container. And so that will just listen on that port, and when everyone connects, it's going to print it out. I'm going to take that output and pipe it using the pipe operator into another copy of `netcat`, and this other copy of netcat is going to listen on port 45679, which is that second port we've forwarded into the container.
+
+So you see I've got, data's going to come in on one port, get forwarded to a process, and go out on the other port. So we're making ourselves a little relay.
+
+![](http://okye062gb.bkt.clouddn.com/2017-05-23-015827.jpg)
+
+```
+Exposing a Specific Port
+
+- Explicitly specifies the port inside the container and outside
+- Expose as many ports as you want
+- Require coordination between containers
+- Make it easy to find the exposed ports
+
+➜  ~ docker run --rm -ti -p 45678:45678 -p 45679:45679 --name echo-server debian bash
+root@a089ea2b2611:/#
+```
+
+Docker has a nice command that makes it easy to find exposed ports. So you can expose ports dynamically. That way you don't have to worry about conflicts in advance and not being able to run a container 'cause some other container's using that port.
+
+So you fix the port inside the container. The program inside the container always listens on the same port, but from the outside of the container, it just gets whatever port is next available. It's always guaranteed to get at least one port.
+
+I'm going to change it so that instead of specifying both the inside and the outside port, I'm going to specify only the inside port and let the outside port be chosen dynamically.
+
+
+```
+Exposing Ports Dynamically
+
+- The port inside the container is fixed
+- The port on the host is chosen from the unused ports
+- This allows many containers running programs with fixed ports
+- This often is used with a service discovery program
+
+#Terminal 1
+➜  ~ docker run --rm -ti -p 45678 -p 45679 --name echo-server debian bash
+root@3144f8031fd8:/# 
+
+#Terminal 2
+➜  ~ docker port echo-server
+45679/tcp -> 0.0.0.0:32768
+45678/tcp -> 0.0.0.0:32769
+
+
+Exposing UDP Ports
+
+- `docker run -p outside-port:inside-port/protocol(tcp/udp)
+- `docker run -p 1234:1234/udp``
 ```
 
