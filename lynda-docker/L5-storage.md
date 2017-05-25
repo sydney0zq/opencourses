@@ -26,11 +26,11 @@ Let's give him some dark spots. You know, good traditional cow spots. Instead of
 
 I don't want to just reach in and write some spots onto that image because someone else is probably using it, so I write my spots onto a separate layer right next to it, and then when I start my container, layer the spots over the cow and give that to the container, so the container sees the image of a cow with spots even though the cow image still exists without his spots, and others that are still using the spotless cow image can continue to do so, but I want these dark spots.
 
-#pic 1
+![](http://okye062gb.bkt.clouddn.com/2017-05-25-011049.jpg)
 
 You know, **somebody else really has a more artistic perspective, and they'd like a cow with light spots, so they're going to start with the same image, literally the same image, not a copy of the image, but the same one, and they're going to make their own layer, but with their own interpretation of what cow spots should look like, so they make their own filesystem layer and layer it over that image, and here we have a cow with different colored spots, so it's called copy on write when I would write to this cow instead of writing directly to the cow, I write to my own layer, which gets layered on top of the cow.**
 
-#pic 2
+![](http://okye062gb.bkt.clouddn.com/2017-05-25-011317.jpg)
 
 When I want to look at the cow, I just look at the whole thing. I only copy the pieces that I write. I read from the original and copy when you write. Copy on write. So to get a little bigger perspective, we have the original image of the cow, unchanged, just one of them. I'm going to draw him down here. We have the resulting images of that cow.
 
@@ -44,8 +44,7 @@ I can send images between machines pretty much freely. There is one little bit d
 
 If you make a very deeply nested image on a machine that allows a great number of layers, and then you package it up and try to download it on a machine that uses a storage engine with less layers, you can run out of layers. This is worth being vaguely aware of. It doesn't come up very often, and it's good to be able to recognize it when it does.
 
-#pic 3
-
+![](http://okye062gb.bkt.clouddn.com/2017-05-25-011330.jpg)
 
 ```
 Moving Cows
